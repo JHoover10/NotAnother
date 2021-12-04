@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryList", "GroceryList\GroceryList.csproj", "{3AC7CA19-05FC-428F-8FEF-56AE91E35A11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBlog", "RecipeBlog\RecipeBlog.csproj", "{D06DB60A-5013-4807-B87C-9E133AB8CA8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealPlanner", "MealPlanner\MealPlanner.csproj", "{EC188AB8-828D-4BEE-90AF-9837DAC3DC43}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AC7CA19-05FC-428F-8FEF-56AE91E35A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC7CA19-05FC-428F-8FEF-56AE91E35A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC7CA19-05FC-428F-8FEF-56AE91E35A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC7CA19-05FC-428F-8FEF-56AE91E35A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D06DB60A-5013-4807-B87C-9E133AB8CA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D06DB60A-5013-4807-B87C-9E133AB8CA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D06DB60A-5013-4807-B87C-9E133AB8CA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D06DB60A-5013-4807-B87C-9E133AB8CA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC188AB8-828D-4BEE-90AF-9837DAC3DC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC188AB8-828D-4BEE-90AF-9837DAC3DC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC188AB8-828D-4BEE-90AF-9837DAC3DC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC188AB8-828D-4BEE-90AF-9837DAC3DC43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
